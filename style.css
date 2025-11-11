@@ -496,3 +496,22 @@ span{
 .menu-icon.active .close-icon {
     display: inline;
 }
+@media (max-width: 768px) {
+    .job-type {
+        position: relative;
+        top: auto;
+        right: auto;
+        display: inline-block;
+        margin-top: 1rem;
+        align-self: flex-start;
+    }
+
+    .experience-item {
+        text-align: left;
+    }
+
+    .experience-item h2 {
+        font-size: 2rem;
+    }
+}
+
